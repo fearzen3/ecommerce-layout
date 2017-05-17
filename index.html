@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Store</title>
+</head>
+
+<body>
+    <div class="header-menu">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="checkout.html">checkout</a></li>
+                    <li><span><i class="shopping-cart"></i></span></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="content-items">
+        <div class="shop-items">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+
+                        <div class="item">
+
+                            <img class="img-responsive" src="./img/3dsbravelysecond_-120x120.jpg" alt="">
+
+                            <div class="item-dtls">
+
+                                <h4><a href="#">Bravely Second</a></h4>
+
+                                <span class="price lblue">Rp 500.000</span>
+                            </div>
+
+                            <div class="ecom bg-lblue">
+                                <a class="btn" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+
+                        <div class="item">
+
+                            <img class="img-responsive" src="./img/81YSq15-nhL._SL1500_-120x120.jpg" alt="">
+
+                            <div class="item-dtls">
+
+                                <h4><a href="#">Conception II</a></h4>
+
+                                <span class="price lblue">Rp 300.000</span>
+                            </div>
+
+                            <div class="ecom bg-lblue">
+                                <a class="btn" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+
+                        <div class="item">
+
+                            <img class="img-responsive" src="./img/510utG6WEfL._AA160_-120x120.jpg" alt="">
+
+                            <div class="item-dtls">
+
+                                <h4><a href="#">Hyrule Warrior</a></h4>
+
+                                <span class="price lblue">Rp 400.000</span>
+                            </div>
+
+                            <div class="ecom bg-lblue">
+                                <a class="btn" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+
+                        <div class="item">
+
+                            <img class="img-responsive" src="./img/5132wPtWQ-L__SL500_AA300_-120x120.jpg" alt="">
+
+                            <div class="item-dtls">
+
+                                <h4><a href="#">Batman</a></h4>
+
+                                <span class="price lblue">Rp 250.000</span>
+                            </div>
+
+                            <div class="ecom bg-lblue">
+                                <a class="btn" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+
+                        <div class="item">
+
+                            <img class="img-responsive" src="./img/fireemblembirthright-120x120.jpg" alt="">
+
+                            <div class="item-dtls">
+
+                                <h4><a href="#">Fire Emblem Birth Right</a></h4>
+
+                                <span class="price lblue">Rp 600.000</span>
+                            </div>
+
+                            <div class="ecom bg-lblue">
+                                <a class="btn" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+
+                        <div class="item">
+
+                            <img class="img-responsive" src="./img/injustice2-120x120.jpg" alt="">
+
+                            <div class="item-dtls">
+
+                                <h4><a href="#">Injustice 2</a></h4>
+
+                                <span class="price lblue">Rp 400.000</span>
+                            </div>
+
+                            <div class="ecom bg-lblue">
+                                <a class="btn" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+
+                        <div class="item">
+
+                            <img class="img-responsive" src="./img/mxgp3-120x120.jpg" alt="">
+
+                            <div class="item-dtls">
+
+                                <h4><a href="#">MX GP3</a></h4>
+
+                                <span class="price lblue">Rp 345.000</span>
+                            </div>
+
+                            <div class="ecom bg-lblue">
+                                <a class="btn" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+
+                        <div class="item">
+
+                            <img class="img-responsive" src="./img/ps4aegis-120x120.jpg" alt="">
+
+                            <div class="item-dtls">
+
+                                <h4><a href="#">Aegis</a></h4>
+
+                                <span class="price lblue">Rp 200.000</span>
+                            </div>
+
+                            <div class="ecom bg-lblue">
+                                <a class="btn" href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script>
+    $(document).ready(function() {
+
+
+
+        $(".btn").on('click', function() {
+            var basket = $('.basket');
+            console.log('test');
+            var imgtodrag = $(this).parent('.item').find("img").eq(0);
+            if (imgtodrag) {
+                var imgclone = imgtodrag.clone()
+                    .offset({
+                        top: imgtodrag.offset().top,
+                        left: imgtodrag.offset().left
+                    })
+                    .css({
+                        'opacity': '0.5',
+                        'position': 'absolute',
+                        'height': '150px',
+                        'width': '150px',
+                        'z-index': '100'
+                    })
+                    .appendTo($('body'))
+                    .animate({
+                        'top': 10,
+                        'left': 10,
+                        'width': 75,
+                        'height': 75
+                    }, 1000, 'easeInOutExpo');
+
+                // setTimeout(function() {
+                //     basket.effect("shake", {
+                //         times: 2
+                //     }, 200);
+                // }, 1500);
+
+                imgclone.animate({
+                    'width': 0,
+                    'height': 0
+                }, function() {
+                    $(this).detach()
+                });
+            }
+        });
+
+
+    });
+</script>
+
+</html>
